@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include lottery_management *.css
+recursive-include lottery_management *.csv
+recursive-include lottery_management *.html
+recursive-include lottery_management *.ico
+recursive-include lottery_management *.js
+recursive-include lottery_management *.json
+recursive-include lottery_management *.md
+recursive-include lottery_management *.png
+recursive-include lottery_management *.py
+recursive-include lottery_management *.svg
+recursive-include lottery_management *.txt
+recursive-exclude lottery_management *.pyc
