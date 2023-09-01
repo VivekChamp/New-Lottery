@@ -1,0 +1,32 @@
+{
+ "allow_roles": [
+  {
+   "role": "All"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "creation": "2023-08-29 00:50:24.829666",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "159.89.170.34:6060",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2023-08-29 00:50:24.829666",
+ "modified_by": "Administrator",
+ "module": "Lottery Management",
+ "name": "Lottery Management",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "Create Ticket Bundle"
+  },
+  {
+   "step": "Create Daily Ticket Entry"
+  }
+ ],
+ "subtitle": "Lottery Management",
+ "success_message": "Successfully DOne",
+ "title": "Lottery Management"
+}

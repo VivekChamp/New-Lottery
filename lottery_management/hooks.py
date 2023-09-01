@@ -135,6 +135,10 @@ app_license = "MIT"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "lottery_management.event.get_events"
 # }
+
+whitelisted_methods = {
+    'lottery_management.utils.get_bundle_details': 'lottery_management.utils.get_bundle_details'
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,

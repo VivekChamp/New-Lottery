@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-28 12:10:59.320710",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bundle_number",
+  "denomination",
+  "sequence_number",
+  "no_of_tickets",
+  "entry_type",
+  "date"
+ ],
+ "fields": [
+  {
+   "fetch_from": "bundle_number.denomination",
+   "fieldname": "denomination",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Denomination"
+  },
+  {
+   "fieldname": "bundle_number",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Bundle No",
+   "options": "Ticket Bundle"
+  },
+  {
+   "fieldname": "no_of_tickets",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "No Of Tickets"
+  },
+  {
+   "fieldname": "sequence_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sequence No"
+  },
+  {
+   "fieldname": "entry_type",
+   "fieldtype": "Data",
+   "label": "Entry Type"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-08-29 00:36:34.643212",
+ "modified_by": "Administrator",
+ "module": "Lottery Management",
+ "name": "Daily Ticket Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

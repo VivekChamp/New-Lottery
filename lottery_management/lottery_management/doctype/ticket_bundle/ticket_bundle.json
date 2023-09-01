@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:bundle_number",
+ "creation": "2023-08-28 11:45:24.139928",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "bundle_number",
+  "barcode",
+  "column_break_2",
+  "denomination",
+  "section_break_4",
+  "start_sequence",
+  "column_break_6",
+  "end_sequence",
+  "section_break_8",
+  "current_sequence"
+ ],
+ "fields": [
+  {
+   "fieldname": "bundle_number",
+   "fieldtype": "Data",
+   "label": "Bundle Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "In $",
+   "fieldname": "denomination",
+   "fieldtype": "Data",
+   "label": "Denomination"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "start_sequence",
+   "fieldtype": "Data",
+   "label": "Start Sequence"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_sequence",
+   "fieldtype": "Data",
+   "label": "End Sequence"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "current_sequence",
+   "fieldtype": "Data",
+   "label": "Current Sequence"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Data",
+   "label": "Barcode"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-28 14:40:18.257436",
+ "modified_by": "Administrator",
+ "module": "Lottery Management",
+ "name": "Ticket Bundle",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
