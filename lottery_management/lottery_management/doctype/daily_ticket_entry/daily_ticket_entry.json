@@ -33,7 +33,8 @@
   {
    "fieldname": "scan_barcode",
    "fieldtype": "Data",
-   "label": "Scan Barcode"
+   "label": "Scan Barcode",
+   "options": "Barcode"
   },
   {
    "fieldname": "amended_from",
@@ -53,6 +54,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "allow_bulk_edit": 1,
    "fieldname": "daily_ticket_items",
    "fieldtype": "Table",
    "options": "Daily Ticket Item"
@@ -67,7 +69,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-28 21:52:44.001356",
+ "modified": "2023-09-04 10:07:01.662349",
  "modified_by": "Administrator",
  "module": "Lottery Management",
  "name": "Daily Ticket Entry",
